@@ -5,12 +5,20 @@ Homebrew tap for a firmware and IoT analysis toolkit.
 ## Install
 
 ```sh
-brew tap nmatt0/tap
-brew install moria      # firmware/IoT image identification and extraction
-brew install mithril    # firmware content analysis: secrets, SBOM, CVEs, licenses
+brew install nmatt0/tap/moria      # firmware/IoT image identification and extraction
+brew install nmatt0/tap/mithril    # firmware content analysis: secrets, SBOM, CVEs, licenses
 ```
 
-Upgrade with `brew upgrade moria mithril`.
+The fully-qualified name taps automatically. You can also tap first, then use
+the short names:
+
+```sh
+brew tap nmatt0/tap
+brew install moria mithril
+```
+
+Homebrew may ask you to confirm installing from a third-party (non-core) tap the
+first time; approve it. Upgrade later with `brew upgrade moria mithril`.
 
 ## Formulae
 
