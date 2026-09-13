@@ -1,8 +1,8 @@
 class Moria < Formula
   desc "Firmware/IoT image identification and extraction tool"
   homepage "https://github.com/nmatt0/moria"
-  url "https://github.com/nmatt0/moria/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "76fb476dbbe296f7390310f52f568388469e4799b0be9d8c31ae762de363495a"
+  url "https://github.com/nmatt0/moria/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "18f1be877e280370d26504b36f381b780b31a3fc1b3bb7c9fef81cba140310bc"
   license "MIT"
   head "https://github.com/nmatt0/moria.git", branch: "master"
 
