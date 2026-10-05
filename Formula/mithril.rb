@@ -1,8 +1,8 @@
 class Mithril < Formula
   desc "Firmware content analysis: secrets, SBOM, CVEs and licenses"
   homepage "https://github.com/nmatt0/mithril"
-  url "https://github.com/nmatt0/mithril/archive/refs/tags/v0.2.1.tar.gz"
-  sha256 "21386606cf0ee105bdf675d1c59322f84cd9e78cfa2e874132b510109cf981f5"
+  url "https://github.com/nmatt0/mithril/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "20d7a94c55c9250f0e6f704f20aa0a23a0dfe9da75c5e01be44148196c1e4543"
   license "MIT"
   head "https://github.com/nmatt0/mithril.git", branch: "master"
 
